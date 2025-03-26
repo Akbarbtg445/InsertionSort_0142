@@ -69,7 +69,7 @@ void display()
 {// Looping dengan j dimulai dari 0 hingga n-1
 cout << arr [j] << endl; //Output ke layar
 }
-cout << endl;
+cout << endl; // Ouput baris kosong
 }
 
 int main ()
