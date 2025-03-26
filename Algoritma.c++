@@ -20,15 +20,15 @@ else
     cout << "\nArray yang anda maksukan maksimal 20 elemen.\n ";
 }
 }
-    cout << endl;
-    cout << "=====================" << endl;
+    cout << endl; // Membuat jarak per baris program
+    cout << "=====================" << endl; // Membuat tampilan susunan data element array
     cout << "Masukan Element Array" << endl;
     cout << "=====================" << endl;
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++) // Menggunakan perulangan for untuk menyimpan data pada array
 {
-cout << "data Ke-" << (i + 1 ) <<": ";
-cin >>arr [i];
+cout << "data Ke-" << (i + 1 ) <<": "; // Memasukkan atau menginputkan nilai data
+cin >>arr [i]; // Menyimpan nilai data n kedalam array arr
 
 }
 }
