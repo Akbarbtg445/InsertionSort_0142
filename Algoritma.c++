@@ -17,7 +17,7 @@ if (n <=20)
 }
 else
 {
-    cout << "\nArray yang anda maksukan maksimal 20 elemen.\n "
+    cout << "\nArray yang anda maksukan maksimal 20 elemen.\n ";
 }
 }
     cout << endl;
